@@ -8,7 +8,14 @@
 import scrapy
 
 
-class TutorialItem(scrapy.Item):
+class ScrapyspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class DoubanBookItem(scrapy.Item):
+    ranking = scrapy.Field()
+    book_name = scrapy.Field()
+    score = scrapy.Field()
+    score_num = scrapy.Field()
