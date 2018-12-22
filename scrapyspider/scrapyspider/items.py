@@ -13,9 +13,8 @@ class ScrapyspiderItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
-
-class DoubanBookItem(scrapy.Item):
+class DoubanMovieItem(scrapy.Item):
     ranking = scrapy.Field()
-    book_name = scrapy.Field()
+    movie_name = scrapy.Field()
     score = scrapy.Field()
-    score_num = scrapy.Field()
+    scoure_num = scrapy.Field()
